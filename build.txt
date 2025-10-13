@@ -1,0 +1,4 @@
+displayName = Arcane Odyssey Music Mod
+author = Guard Boi, Tobi, Godwooper
+version = 1.4.0
+modReferences = ArcaneOdyssey@1.4.0

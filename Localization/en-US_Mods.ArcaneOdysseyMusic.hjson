@@ -1,0 +1,11 @@
+Items: {
+	DarkSeaMusicBox: {
+		DisplayName: Dark Sea Music Box
+		Tooltip: ""
+	}
+
+	TitleMusicBox: {
+		DisplayName: Title Music Box
+		Tooltip: ""
+	}
+}
