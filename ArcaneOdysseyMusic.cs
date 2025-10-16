@@ -27,8 +27,7 @@ namespace ArcaneOdysseyMusic
 				}
 				AddMusic("The Call of Adventure", "Tobi", "TitleTheme");
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
-				AddMusic("Lord Elius", "Godwooper", "Elius1");
-				AddMusic("Second Lightning", "Godwooper", "Elius2");
+				AddMusic("Lord Elius", "Godwooper", "Elius");
 			}
 		}
 	}
