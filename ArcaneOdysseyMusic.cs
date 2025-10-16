@@ -27,18 +27,19 @@ namespace ArcaneOdysseyMusic
 				}
 				AddMusic("The Call of Adventure", "Tobi", "TitleTheme");
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
-				AddMusic("Take It", "Godwooper", "Elius1");
+				AddMusic("Lord Elius", "Godwooper", "Elius1");
+				AddMusic("Second Lightning", "Godwooper", "Elius2");
 			}
 		}
 	}
 
-    public class SpawningItems : ModPlayer
-    {
-        public override IEnumerable<Item> AddStartingItems(bool mediumCoreDeath)
-        {
-            if (!mediumCoreDeath)
-                return [new Item(ModContent.ItemType<TitleMusicBox>())];
-            return [];
-        }
-    }
+	public class SpawningItems : ModPlayer
+	{
+		public override IEnumerable<Item> AddStartingItems(bool mediumCoreDeath)
+		{
+			if (!mediumCoreDeath)
+				return [new Item(ModContent.ItemType<TitleMusicBox>())];
+			return [];
+		}
+	}
 }
