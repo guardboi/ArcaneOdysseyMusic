@@ -1,9 +1,5 @@
 using ArcaneOdysseyMusic.MusicBoxes;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -25,7 +21,7 @@ namespace ArcaneOdysseyMusic
 					short slot = (short)MusicLoader.GetMusicSlot(this, $"Music/{songPath}");
 					musicDisplay.Call("AddMusic", slot, songName, authorName, DisplayName);
 				}
-				AddMusic("The Call of Adventure", "Tobi", "TitleTheme");
+				AddMusic("A Concerning Plot (Reimagined)", "Tobi", "TitleTheme");
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
 				AddMusic("Lord Elius", "Godwooper", "Elius");
 			}

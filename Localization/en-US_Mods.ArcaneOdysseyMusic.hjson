@@ -1,11 +1,11 @@
 Items: {
 	DarkSeaMusicBox: {
 		DisplayName: Dark Sea Music Box
-		Tooltip: ""
+		Tooltip: Plays 'The Dark Sea' by Tobi
 	}
 
 	TitleMusicBox: {
 		DisplayName: Title Music Box
-		Tooltip: ""
+		Tooltip: Plays 'A Concerning Plot (Reimagined)' by Tobi
 	}
 }
