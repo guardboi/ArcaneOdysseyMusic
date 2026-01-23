@@ -1,0 +1,12 @@
+﻿[*.cs]
+
+# CS0162: Unreachable code detected
+dotnet_diagnostic.CS0162.severity = none
+
+# Top-most EditorConfig file
+root = true
+
+# 4 space indentation for all files
+[*]
+indent_style = tab
+indent_size = 4

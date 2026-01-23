@@ -11,6 +11,8 @@ namespace ArcaneOdysseyMusic.MusicBoxes
 {
 	public abstract class MusicBoxTile : ModTile
 	{
+		public virtual Color MapColour => Color.Lavender;
+
 		public override void SetStaticDefaults()
 		{
 			Main.tileFrameImportant[Type] = true;
@@ -24,7 +26,7 @@ namespace ArcaneOdysseyMusic.MusicBoxes
 			TileObjectData.newTile.StyleLineSkip = 2;
 			TileObjectData.addTile(Type);
 
-			AddMapEntry(Color.Lavender, Language.GetText("ItemName.MusicBox"));
+			AddMapEntry(MapColour, Language.GetText("ItemName.MusicBox"));
 		}
 
 		public override void MouseOver(int i, int j)
