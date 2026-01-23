@@ -8,4 +8,14 @@ Items: {
 		DisplayName: Title Music Box
 		Tooltip: Plays 'A Concerning Plot (Reimagined)' by Tobi
 	}
+
+	ArgosMusicBox: {
+		DisplayName: General Argos Music Box
+		Tooltip: Plays 'General Argos' by Godwooper
+	}
+
+	EliusMusicBox: {
+		DisplayName: Lord Elius Music Box
+		Tooltip: Plays 'Lord Elius' by Godwooper
+	}
 }

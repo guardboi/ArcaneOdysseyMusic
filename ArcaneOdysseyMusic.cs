@@ -5,12 +5,11 @@ using Terraria.ModLoader;
 
 namespace ArcaneOdysseyMusic
 {
-	public class ArcaneOdysseyMusic : Mod
+	public class ArcaneOdysseyMusicMod : Mod
 	{
-		public override object Call(params object[] args)
-		{
-			return MusicLoader.GetMusicSlot(this, $"Music/{args[0]}");
-		}
+		public static ArcaneOdysseyMusicMod Instance => ModContent.GetInstance<ArcaneOdysseyMusicMod>();
+
+		public static string InternalName => typeof(ArcaneOdysseyMusicMod).Namespace;
 
 		public override void PostSetupContent()
 		{
@@ -24,6 +23,7 @@ namespace ArcaneOdysseyMusic
 				AddMusic("A Concerning Plot (Reimagined)", "Tobi", "TitleTheme");
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
 				AddMusic("Lord Elius", "Godwooper", "Elius");
+				AddMusic("Lord Elius", "Godwooper", "Argos");
 			}
 		}
 	}
