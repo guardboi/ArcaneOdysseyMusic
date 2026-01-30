@@ -1,21 +1,21 @@
 Items: {
 	DarkSeaMusicBox: {
-		DisplayName: Dark Sea Music Box
+		DisplayName: Music Box (Dark Sea)
 		Tooltip: Plays 'The Dark Sea' by Tobi
 	}
 
 	TitleMusicBox: {
-		DisplayName: Title Music Box
+		DisplayName: Music Box (Arcane Odyssey Title)
 		Tooltip: Plays 'A Concerning Plot (Reimagined)' by Tobi
 	}
 
 	ArgosMusicBox: {
-		DisplayName: General Argos Music Box
-		Tooltip: Plays 'General Argos' by Godwooper
+		DisplayName: Music Box (General Argos)
+		Tooltip: Plays 'Placeholder' by Godwooper
 	}
 
 	EliusMusicBox: {
-		DisplayName: Lord Elius Music Box
+		DisplayName: Music Box (Lord Elius)
 		Tooltip: Plays 'Lord Elius' by Godwooper
 	}
 }
