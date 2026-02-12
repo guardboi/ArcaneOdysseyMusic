@@ -12,9 +12,7 @@ namespace ArcaneOdysseyMusic.MusicBoxes
 		{
 			ItemID.Sets.CanGetPrefixes[Type] = false;
 			ItemID.Sets.ShimmerTransformToItem[Type] = ItemID.MusicBox;
-
-			if (!string.IsNullOrEmpty(MusicFilePath))
-				MusicLoader.AddMusicBox(Mod, MusicLoader.GetMusicSlot(Mod, MusicFilePath), Type, MusicBoxTile);
+			MusicLoader.AddMusicBox(Mod, MusicLoader.GetMusicSlot(Mod, MusicFilePath), Type, MusicBoxTile);
 		}
 
 		public override void SetDefaults()
