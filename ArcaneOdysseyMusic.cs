@@ -22,8 +22,8 @@ namespace ArcaneOdysseyMusic
 				}
 				AddMusic("A Concerning Plot (Reimagined)", "Tobi", "TitleTheme");
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
-				AddMusic("Lord Elius", "Godwooper", "Elius");
-				AddMusic("Lord Elius", "Godwooper", "Argos");
+				AddMusic("Flamboyant Fatality", "Godwooper", "Elius");
+				AddMusic("Auric Obliteration", "Godwooper", "Argos");
 			}
 		}
 	}
