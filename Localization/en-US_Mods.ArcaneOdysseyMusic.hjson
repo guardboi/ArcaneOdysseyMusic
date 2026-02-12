@@ -11,11 +11,11 @@ Items: {
 
 	ArgosMusicBox: {
 		DisplayName: Music Box (General Argos)
-		Tooltip: Plays 'Placeholder' by Godwooper
+		Tooltip: Plays 'Auric Obliteration' by Godwooper
 	}
 
 	EliusMusicBox: {
 		DisplayName: Music Box (Lord Elius)
-		Tooltip: Plays 'Lord Elius' by Godwooper
+		Tooltip: Plays 'Flamboyant Fatality' by Godwooper
 	}
 }
