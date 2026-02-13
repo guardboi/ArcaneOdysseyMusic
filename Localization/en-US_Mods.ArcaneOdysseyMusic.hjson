@@ -14,6 +14,11 @@ Items: {
 		Tooltip: Plays 'Auric Obliteration' by Godwooper
 	}
 
+	AllanonMusicBox: {
+		DisplayName: Music Box (Prince Allanon)
+		Tooltip: Plays 'Auric Obliteration' by Godwooper
+	}
+
 	EliusMusicBox: {
 		DisplayName: Music Box (Lord Elius)
 		Tooltip: Plays 'Prince of Storm' by Godwooper

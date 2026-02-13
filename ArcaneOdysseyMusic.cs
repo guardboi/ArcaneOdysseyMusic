@@ -24,6 +24,7 @@ namespace ArcaneOdysseyMusic
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
 				AddMusic("Prince of Storm", "Godwooper", "Elius");
 				AddMusic("Auric Obliteration", "Godwooper", "Argos");
+				AddMusic("Auric Obliteration", "Godwooper", "Allanon");
 			}
 		}
 	}
