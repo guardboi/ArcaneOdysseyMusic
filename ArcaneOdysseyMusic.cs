@@ -23,8 +23,8 @@ namespace ArcaneOdysseyMusic
 				AddMusic("A Concerning Plot (Reimagined)", "Tobi", "TitleTheme");
 				AddMusic("The Dark Sea", "Tobi", "DarkSea");
 				AddMusic("Prince of Storm", "Godwooper", "Elius");
-				AddMusic("Auric Obliteration", "Godwooper", "Argos");
-				AddMusic("Auric Obliteration", "Godwooper", "Allanon");
+				AddMusic("Flames of Skyhall", "Godwooper", "Argos");
+				AddMusic("Flames of Skyhall", "Godwooper", "Allanon");
 			}
 		}
 	}

@@ -11,12 +11,12 @@ Items: {
 
 	ArgosMusicBox: {
 		DisplayName: Music Box (General Argos)
-		Tooltip: Plays 'Auric Obliteration' by Godwooper
+		Tooltip: Plays 'Flames of Skyhall (placeholder)' by Godwooper
 	}
 
 	AllanonMusicBox: {
 		DisplayName: Music Box (Prince Allanon)
-		Tooltip: Plays 'Auric Obliteration' by Godwooper
+		Tooltip: Plays 'Flames of Skyhall' by Godwooper
 	}
 
 	EliusMusicBox: {
