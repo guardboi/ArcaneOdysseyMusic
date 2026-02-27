@@ -23,4 +23,9 @@ Items: {
 		DisplayName: Music Box (Lord Elius)
 		Tooltip: Plays 'Prince of Storm' by Godwooper
 	}
+
+	AtlanteanMusicBox: {
+		DisplayName: Music Box (Atlantean)
+		Tooltip: Plays 'Brought to Insanity' by Tobi
+	}
 }

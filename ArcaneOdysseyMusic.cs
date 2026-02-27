@@ -25,17 +25,8 @@ namespace ArcaneOdysseyMusic
 				AddMusic("Prince of Storm", "Godwooper", "Elius");
 				AddMusic("Flames of Skyhall", "Godwooper", "Argos");
 				AddMusic("Flames of Skyhall", "Godwooper", "Allanon");
+				AddMusic("Brought to Insanity", "Tobi", "Atlantean");
 			}
-		}
-	}
-
-	public class SpawningItems : ModPlayer
-	{
-		public override IEnumerable<Item> AddStartingItems(bool mediumCoreDeath)
-		{
-			if (!mediumCoreDeath)
-				return [new Item(ModContent.ItemType<TitleMusicBox>())];
-			return [];
 		}
 	}
 }
