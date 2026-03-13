@@ -9,6 +9,11 @@ Items: {
 		Tooltip: Plays 'A Concerning Plot (Reimagined)' by Tobi
 	}
 
+	TitleMusicBox2: {
+		DisplayName: Music Box (Arcane Odyssey Alt Title)
+		Tooltip: Plays 'The Call of Adventure' by Tobi
+	}
+
 	ArgosMusicBox: {
 		DisplayName: Music Box (General Argos)
 		Tooltip: Plays 'Flames of Skyhall (placeholder)' by Godwooper
@@ -27,5 +32,42 @@ Items: {
 	AtlanteanMusicBox: {
 		DisplayName: Music Box (Atlantean)
 		Tooltip: Plays 'Brought to Insanity' by Tobi
+	}
+}
+
+Music: {
+	Allanon: {
+		DisplayName: Flames of Skyhall
+		Author: Godwooper
+	}
+
+	Atlantean: {
+		DisplayName: Brought to Insanity
+		Author: Tobi
+	}
+
+	Argos: {
+		DisplayName: Flames of Skyhall
+		Author: Godwooper
+	}
+
+	TitleTheme: {
+		DisplayName: A Concerning Plot
+		Author: Tobi
+	}
+
+	TitleTheme2: {
+		DisplayName: The Call of Adventure
+		Author: Tobi
+	}
+
+	DarkSea: {
+		DisplayName: The Dark Sea
+		Author: Tobi
+	}
+
+	Elius: {
+		DisplayName: Prince of Storm
+		Author: Godwooper
 	}
 }
