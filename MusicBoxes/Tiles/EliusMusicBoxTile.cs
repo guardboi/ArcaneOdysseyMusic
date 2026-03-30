@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace ArcaneOdysseyMusic.MusicBoxes
+namespace ArcaneOdysseyMusic.MusicBoxes.Tiles
 {
 	public class EliusMusicBoxTile : MusicBoxTile
 	{

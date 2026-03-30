@@ -1,39 +1,15 @@
 Items: {
-	DarkSeaMusicBox: {
-		DisplayName: Music Box (Dark Sea)
-		Tooltip: Plays 'The Dark Sea' by Tobi
-	}
-
-	TitleMusicBox: {
-		DisplayName: Music Box (Arcane Odyssey Title)
-		Tooltip: Plays 'A Concerning Plot (Reimagined)' by Tobi
-	}
-
-	TitleMusicBox2: {
-		DisplayName: Music Box (Arcane Odyssey Alt Title)
-		Tooltip: Plays 'The Call of Adventure' by Tobi
-	}
-
-	ArgosMusicBox: {
-		DisplayName: Music Box (General Argos)
-		Tooltip: Plays 'Flames of Skyhall (placeholder)' by Godwooper
-	}
-
-	AllanonMusicBox: {
-		DisplayName: Music Box (Prince Allanon)
-		Tooltip: Plays 'Flames of Skyhall' by Godwooper
-	}
-
-	EliusMusicBox: {
-		DisplayName: Music Box (Lord Elius)
-		Tooltip: Plays 'Prince of Storm' by Godwooper
-	}
-
-	AtlanteanMusicBox: {
-		DisplayName: Music Box (Atlantean)
-		Tooltip: Plays 'Brought to Insanity' by Tobi
-	}
+	DarkSeaMusicBox.DisplayName: Music Box (Dark Sea)
+	TitleMusicBox.DisplayName: Music Box (Arcane Odyssey Title)
+	TitleMusicBox2.DisplayName: Music Box (Arcane Odyssey Alt Title)
+	ArgosMusicBox.DisplayName: Music Box (General Argos)
+	AllanonMusicBox.DisplayName: Music Box (Prince Allanon)
+	EliusMusicBox.DisplayName: Music Box (Lord Elius)
+	AtlanteanMusicBox.DisplayName: Music Box (Atlantean)
+	DjinMusicBox.DisplayName: Music Box (Djin Ruins)
 }
+
+Tooltip: Plays '{0}' by {1}
 
 Music: {
 	Allanon: {
@@ -47,8 +23,8 @@ Music: {
 	}
 
 	Argos: {
-		DisplayName: Flames of Skyhall
-		Author: Godwooper
+		DisplayName: Argos
+		Author: nue houjuu
 	}
 
 	TitleTheme: {
@@ -68,6 +44,11 @@ Music: {
 
 	Elius: {
 		DisplayName: Prince of Storm
+		Author: Godwooper
+	}
+
+	Djin: {
+		DisplayName: Sky
 		Author: Godwooper
 	}
 }

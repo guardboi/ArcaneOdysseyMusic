@@ -14,30 +14,32 @@ namespace ArcaneOdysseyMusic
 		{
 			if (ModLoader.TryGetMod("MusicDisplay", out Mod musicDisplay))
 			{
-				foreach (var track in AOMusicTrack.All)
+				foreach (var track in MusicTrack.All)
 				{
-					musicDisplay.Call("AddMusic", (short)track.MusicSlot, track.Name.Value, track.Author.Value, track.InternalName);
+					musicDisplay.Call("AddMusic", track.MusicSlotShort, track.DisplayName.Value, track.Author.Value, DisplayNameClean);
 				}
 			}
 		}
 	}
 
-	public class AOMusicTrack(string name)
+	public class MusicTrack(string name)
 	{
-		public static AOMusicTrack Elius => new("Elius");
-		public static AOMusicTrack TitleTheme => new("TitleTheme");
-		public static AOMusicTrack TitleTheme2 => new("TitleTheme2");
-		public static AOMusicTrack DarkSea => new("DarkSea");
-		public static AOMusicTrack Allanon => new("Allanon");
-		public static AOMusicTrack Argos => new("Argos");
-		public static AOMusicTrack Atlantean => new("Atlantean");
-		public static AOMusicTrack[] All => [Atlantean, Argos, TitleTheme, TitleTheme2, DarkSea, Elius, Allanon];
+		public static MusicTrack Elius => new("Elius");
+		public static MusicTrack TitleTheme => new("TitleTheme");
+		public static MusicTrack TitleTheme2 => new("TitleTheme2");
+		public static MusicTrack DarkSea => new("DarkSea");
+		public static MusicTrack Allanon => new("Allanon");
+		public static MusicTrack Argos => new("Argos");
+		public static MusicTrack Atlantean => new("Atlantean");
+		public static MusicTrack Djin => new("Djin");
+		public static MusicTrack[] All => [Atlantean, Argos, TitleTheme, TitleTheme2, DarkSea, Elius, Allanon, Djin];
 
 		public string InternalName = name;
 
-		public LocalizedText Name => Language.GetOrRegister($"Mods.{ArcaneOdysseyMusicMod.InternalName}.Music.{InternalName}.DisplayName", () => Regex.Replace(InternalName, "([A-Z])", " $1").Trim());
+		public LocalizedText DisplayName => Language.GetOrRegister($"Mods.{ArcaneOdysseyMusicMod.InternalName}.Music.{InternalName}.DisplayName", () => Regex.Replace(InternalName, "([A-Z])", " $1").Trim());
 		public LocalizedText Author => Language.GetOrRegister($"Mods.{ArcaneOdysseyMusicMod.InternalName}.Music.{InternalName}.Author", () => "Unknown Author");
 
 		public int MusicSlot => MusicLoader.GetMusicSlot($"{ArcaneOdysseyMusicMod.InternalName}/Music/{InternalName}");
+		public short MusicSlotShort => (short)MusicSlot;
 	}
 }
