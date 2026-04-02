@@ -1,12 +1,12 @@
 Items: {
+	AllanonMusicBox.DisplayName: Music Box (Prince Allanon)
+	ArgosMusicBox.DisplayName: Music Box (General Argos)
+	AtlanteanMusicBox.DisplayName: Music Box (Atlantean)
 	DarkSeaMusicBox.DisplayName: Music Box (Dark Sea)
+	DjinMusicBox.DisplayName: Music Box (Djin Ruins)
+	EliusMusicBox.DisplayName: Music Box (Lord Elius)
 	TitleMusicBox.DisplayName: Music Box (Arcane Odyssey Title)
 	TitleMusicBox2.DisplayName: Music Box (Arcane Odyssey Alt Title)
-	ArgosMusicBox.DisplayName: Music Box (General Argos)
-	AllanonMusicBox.DisplayName: Music Box (Prince Allanon)
-	EliusMusicBox.DisplayName: Music Box (Lord Elius)
-	AtlanteanMusicBox.DisplayName: Music Box (Atlantean)
-	DjinMusicBox.DisplayName: Music Box (Djin Ruins)
 }
 
 Tooltip: Plays '{0}' by {1}
@@ -17,14 +17,29 @@ Music: {
 		Author: Godwooper
 	}
 
+	Argos: {
+		DisplayName: The Lion of Ravenna
+		Author: nue houjuu?
+	}
+
 	Atlantean: {
 		DisplayName: Brought to Insanity
 		Author: Tobi
 	}
 
-	Argos: {
-		DisplayName: Argos
-		Author: nue houjuu
+	DarkSea: {
+		DisplayName: The Dark Sea
+		Author: Tobi
+	}
+
+	Djin: {
+		DisplayName: Serene Skies
+		Author: Godwooper
+	}
+
+	Elius: {
+		DisplayName: Prince of Storm
+		Author: Godwooper
 	}
 
 	TitleTheme: {
@@ -35,20 +50,5 @@ Music: {
 	TitleTheme2: {
 		DisplayName: The Call of Adventure
 		Author: Tobi
-	}
-
-	DarkSea: {
-		DisplayName: The Dark Sea
-		Author: Tobi
-	}
-
-	Elius: {
-		DisplayName: Prince of Storm
-		Author: Godwooper
-	}
-
-	Djin: {
-		DisplayName: Sky
-		Author: Godwooper
 	}
 }

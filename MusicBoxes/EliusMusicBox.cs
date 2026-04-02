@@ -1,7 +1,7 @@
 ﻿using ArcaneOdysseyMusic.MusicBoxes.Tiles;
 using Terraria.ModLoader;
 
-namespace ArcaneOdysseyMusic.MusicBoxes.Items
+namespace ArcaneOdysseyMusic.MusicBoxes
 {
 	public class EliusMusicBox : MusicBox
 	{

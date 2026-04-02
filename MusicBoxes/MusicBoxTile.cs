@@ -7,7 +7,7 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ArcaneOdysseyMusic.MusicBoxes.Tiles
+namespace ArcaneOdysseyMusic.MusicBoxes
 {
 	public abstract class MusicBoxTile : ModTile
 	{

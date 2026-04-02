@@ -2,7 +2,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.Localization;
 
-namespace ArcaneOdysseyMusic.MusicBoxes.Items
+namespace ArcaneOdysseyMusic.MusicBoxes
 {
 	public abstract class MusicBox : ModItem
 	{

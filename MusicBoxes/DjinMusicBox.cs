@@ -2,7 +2,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ArcaneOdysseyMusic.MusicBoxes.Items
+namespace ArcaneOdysseyMusic.MusicBoxes
 {
 	public class DjinMusicBox : MusicBox
 	{
